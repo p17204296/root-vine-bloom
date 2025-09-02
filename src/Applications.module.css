@@ -47,5 +47,6 @@
 }
 
 .loadMoreButton {
-  padding: 8px 45px;
+  font-size: 1rem;
+  padding: 8px 55px;
 }
