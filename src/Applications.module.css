@@ -2,4 +2,50 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+.loadingMessage,
+.errorMessage,
+.emptyMessage {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 16px 0px rgba(173, 200, 215, 0.25);
+}
+
+.loadingMessage {
+  font-size: 1.1rem;
+  color: var(--color-denim-65);
+}
+
+.errorMessage h2 {
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.errorMessage p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.emptyMessage h2 {
+  color: var(--color-denim-65);
+  margin-bottom: 10px;
+}
+
+.emptyMessage p {
+  color: #666;
+}
+
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.loadMoreButton {
+  padding: 8px 45px;
 }

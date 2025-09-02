@@ -60,7 +60,9 @@ const Applications = () => {
               <Button 
                   onClick={loadMore}
                   disabled={isLoadingMore}
-                  aria-label={isLoadingMore ? 'Loading more applications' : 'Load more applications'} className={undefined}              >
+                  aria-label={isLoadingMore ? 'Loading more applications' : 'Load more applications'}
+                  className={styles.loadMoreButton}
+              >
                 {isLoadingMore ? 'Loading...' : 'Load more'}
               </Button>
             </div>
